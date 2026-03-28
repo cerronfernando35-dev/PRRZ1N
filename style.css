@@ -1,0 +1,15 @@
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    overflow: hidden; /* Oculta las barras de desplazamiento */
+    background: black; /* Fondo negro como en el video */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para el lienzo de dibujo */
+canvas {
+    display: block;
+}
