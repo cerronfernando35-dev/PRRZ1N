@@ -7,7 +7,7 @@ canvas.height = window.innerHeight;
 
 let time = 0; 
 let points = [];
-const scale = 10; // Lo agrandé un pelín para que luzca más
+const scale = 13; // Lo agrandé un pelín para que luzca más
 const numPoints = 1500; 
 
 // 1. Calculamos los puntos del corazón
@@ -27,7 +27,7 @@ function draw() {
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     ctx.fillStyle = '#FF0000'; 
-    ctx.font = 'bold 10px Arial'; 
+    ctx.font = 'bold 13px Arial'; 
     ctx.shadowBlur = 12; 
     ctx.shadowColor = 'red';
 
